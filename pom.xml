@@ -9,4 +9,18 @@
   <artifactId>goods-manager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <!-- 依赖管理 -->
+  <dependencies>
+  	<dependency>
+  		<groupId>com.goods</groupId>
+    	<artifactId>goods-common</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  <modules>
+  	<module>goods-manager-pojo</module>
+  	<module>goods-manager-mapper</module>
+  	<module>goods-manager-service</module>
+  	<module>goods-manager-web </module>
+  </modules>
 </project>
