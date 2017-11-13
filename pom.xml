@@ -23,4 +23,16 @@
   	<module>goods-manager-service</module>
   	<module>goods-manager-web </module>
   </modules>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+			<configuration>
+				<port>8080</port>
+				<path>/</path>
+			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
